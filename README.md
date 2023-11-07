@@ -5,6 +5,6 @@ Using the quadtree makes the time complexity of calculating boid trajectories `O
 
 ## Running the application
 
-Modify any parameters in `internal/boids/params.go` to change behavior and boid counts.
-Run the application with `go run cmd/boids/main.go`.
-Move the up/down/left/right arrow keys to modify alignment, cohesion, and separation values.
+- Modify any parameters in `internal/boids/params.go` to change behavior and boid counts.
+- Run the application with `go run cmd/boids/main.go`.
+- Move the up/down/left/right arrow keys to modify alignment, cohesion, and separation values.
