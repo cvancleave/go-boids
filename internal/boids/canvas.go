@@ -46,6 +46,9 @@ func StartCanvas() {
 
 // mandatory for interface implementation
 func (c *Canvas) Update() error {
+
+	// this does not update the existing quadtree, rather creates a new one and replaces it,
+	// still more efficient than checking every other boid in calculating trajectory
 	boundary := NewRectangle(0, 0, screenWidth, screenHeight)
 	quadtree := NewQuadtree(boundary, 8)
 
