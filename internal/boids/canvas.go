@@ -9,6 +9,7 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 )
 
+// this implements the ebiten.Game interface
 type Canvas struct {
 	quadtree *quadtree
 	allBoids []*boid
